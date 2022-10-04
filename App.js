@@ -3,9 +3,8 @@ function reversedString(str) {
 
     var listOfChars = str.split('');
     var reverseListOfChars = listOfChars.reverse();
-  
     var reversedString = reverseListOfChars.join('');
-  
+    
     return reversedString;
   
   }
